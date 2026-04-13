@@ -18,14 +18,14 @@ public class Obstacle
         this.movingDirY = movingDirY;
     }
 
-    public void Move(int minX, int maxX, int minY, int maxY)
+    public void Move()
     {
         this.X += movingDirX;
         this.Y += movingDirY;
         
     }
 
-    public string[] GetBody()
+    public static string[] GetBody()
     {
         return ["#", "#"];
     }
