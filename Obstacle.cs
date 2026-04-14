@@ -22,7 +22,6 @@ public class Obstacle
     {
         this.X += movingDirX;
         this.Y += movingDirY;
-        
     }
 
     public static string[] GetBody()

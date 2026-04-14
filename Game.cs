@@ -40,7 +40,7 @@ public static class Game
     {
         for (int i = 0; i < obstacles.Count; i++)  
         {
-            obstacles[i].Move(MIN_X, MAX_X, MIN_Y, MAX_Y);
+            obstacles[i].Move();
 
             if (obstacles[i].X >= Man.X && obstacles[i].Y + 1 > Man.Y && 
                 obstacles[i].X < Man.X + 3 && obstacles[i].Y < Man.Y + 3)

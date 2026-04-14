@@ -41,7 +41,7 @@ public static class Draw
     {
         for (int i = 0; i < obstacles.Count; i++)
         {
-            string[] obstacleBody = obstacles[i].GetBody();
+            string[] obstacleBody = Obstacle.GetBody();
             for (int j = 0; j < obstacleBody.Length; j++)
             {
                 if (obstacles[i].X < 0 || obstacles[i].Y < 0)
